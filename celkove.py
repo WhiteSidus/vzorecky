@@ -43,9 +43,10 @@ while True:
                 print("Obvod kvadru je: ", vysledek, " cm/2")
         else:
             print("Co delaš!? Je to chyba -_-")
+    
+    elif volba == "4":
+        print("Ukončení programů!")
+        break
 
     else:
         print("Zadal něco špantě nebo vubec ne zadal")
-
-    if volba == "4":
-        break
